@@ -25,3 +25,19 @@ Install jupyterlb and nb_conda_kernels.
 
 Create a new environment with required packages using the conda-forge channel.  
 ``conda create -n data-science -f data-science-pkgs.txt``
+
+Test new environment
+``conda activate data-science
+conda list numpy
+python -c 'print("Hello")'
+python -c 'import numpy as np'``
+(data-science) wjones-35059s:starting-conda wjones$ conda list numpy
+# packages in environment at /Users/wjones/miniconda3/envs/data-science:
+#
+# Name                    Version                   Build  Channel
+numpy                     1.25.1          py311hc44ba51_0    conda-forge
+(data-science) wjones-35059s:starting-conda wjones$ python -c 'print("Hello")
+> -bash: unexpected EOF while looking for matching `''
+-bash: syntax error: unexpected end of file
+(data-science) wjones-35059s:starting-conda wjones$ python -c 'print("Hello")'
+
