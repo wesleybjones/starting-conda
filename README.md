@@ -57,3 +57,11 @@ Go to a directory where you want to work.
 Select a notebook you would like to run.  
 Make sure the kernel is set for the data-science environment.
 
+Put a script of the desktop so that you can double click to start jupyter lab.
+~~~
+cp jupyterlab.command ~/Desktop
+chmod +x ~/Desktop/jupyterlab.command
+~~~
+
+
+
