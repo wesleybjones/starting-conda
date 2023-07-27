@@ -41,4 +41,8 @@ cd ~/opt
 jupyter lab
 ~~~
 
+Go to Jupyter Lab in your browser.  
+Go to a directory where you want to work.  
+Select a notebook you would like to run.  
+Make sure the kernel is for the data-science environment.
 
