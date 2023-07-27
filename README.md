@@ -7,8 +7,10 @@ Go to that directory.
 ``cd ~/opt``
 
 Clone this github repository, repo, and do change to that directory.  
-``git clone git@github.com:wesleybjones/starting-conda.git``
-``cd starting-conda``
+~~~
+git clone git@github.com:wesleybjones/starting-conda.git
+cd starting-conda
+~~~
 
 Download miniconda.  
 (https://docs.conda.io/en/latest/miniconda.html)
@@ -24,7 +26,7 @@ Install jupyterlb and nb_conda_kernels.
 ``conda install jupyterlab nb_conda_kernels -c conda-forge``
 
 Create a new environment with required packages using the conda-forge channel.  
-``conda create -n data-science -f data-science-pkgs.txt -c conda-forge``
+``conda create -n data-science --file data-science-pkgs.txt -c conda-forge``
 
 Test new environment.
 ~~~
@@ -35,14 +37,23 @@ python -c 'import numpy as np'
 conda deactivate
 ~~~
 
-Go to your projects and software directory and start Jupyter Lab from the (base) environment.
+Test 3-D by activating the data-science environment and runging the test-3d.ipynb in jupyter lab.
+~~~
+conda activate data-science
+jupyter lab
+conda deactivate
+~~~
+
+Go to your projects and software directory and start Jupyter Lab from the data-science environment.
 ~~~
 cd ~/opt
+conda activate data-science
 jupyter lab
+conda deactivate
 ~~~
 
 Go to Jupyter Lab in your browser.  
 Go to a directory where you want to work.  
 Select a notebook you would like to run.  
-Make sure the kernel is for the data-science environment.
+Make sure the kernel is set for the data-science environment.
 
