@@ -1,17 +1,17 @@
 # starting-conda
 Getting Started with Conda on OSX via Terminal
 
-make a directory to keep projects and software
-mkdir -p ~/opt
-Go to that directory
+Make a directory to keep projects and software.  
+''mkdir -p ~/opt''
+Go to that directory.
 ''cd ~/opt''
 
-clone this github repository, repo  
-git clone git@github.com:wesleybjones/starting-conda.git
+Clone this github repository, repo, and do change to that directory.
+''git clone git@github.com:wesleybjones/starting-conda.git''
+''cd starting-conda''
 
-
-Download miniconda
-https://docs.conda.io/en/latest/miniconda.html
+Download miniconda.  
+(https://docs.conda.io/en/latest/miniconda.html)
 
 Open 'Terminal' application and a Shell.
 In the shell bash or zsh the file and install in the default location  
