@@ -6,7 +6,7 @@ mkdir -p ~/opt
 Go to that directory
 ''cd ~/opt''
 
-clone this github repository, repo
+clone this github repository, repo  
 git clone git@github.com:wesleybjones/starting-conda.git
 
 
