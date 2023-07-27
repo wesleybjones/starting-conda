@@ -23,5 +23,5 @@ Start up the base conda environment.
 Install jupyterlb and nb_conda_kernels.  
 ``conda install jupyterlab nb_conda_kernels``
 
-Create a new environment with required packages using the conda-forge channel
+Create a new environment with required packages using the conda-forge channel.  
 ``conda create -n data-science -f data-science-pkgs.txt``
