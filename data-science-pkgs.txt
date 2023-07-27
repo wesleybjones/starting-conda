@@ -4,3 +4,4 @@ pandas
 matplotlib
 scikit-learn
 ipympl
+nb_conda_kernels
