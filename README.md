@@ -21,10 +21,10 @@ Start up the base conda environment.
 ``source ~/miniconda3/bin/activate``
 
 Install jupyterlb and nb_conda_kernels.  
-``conda install jupyterlab nb_conda_kernels``
+``conda install jupyterlab nb_conda_kernels -c conda-forge``
 
 Create a new environment with required packages using the conda-forge channel.  
-``conda create -n data-science -f data-science-pkgs.txt``
+``conda create -n data-science -f data-science-pkgs.txt -c conda-forge``
 
 Test new environment.
 ~~~
