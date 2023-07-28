@@ -4,7 +4,11 @@ Getting Started with Conda on OSX via Terminal
 Make a directory to keep projects and software.  
 ``mkdir -p ~/opt``
 Go to that directory.  
-``cd ~/opt``
+~~~
+cd ~/opt
+pwd
+ls
+~~~
 
 Clone this github repository, repo, and do change to that directory.  
 ~~~
