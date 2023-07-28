@@ -6,14 +6,14 @@ Make a directory to keep projects and software.
 Go to that directory.  
 ~~~
 cd ~/opt
-pwd
-ls
 ~~~
 
 Clone this github repository, repo, and do change to that directory.  
 ~~~
 git clone git@github.com:wesleybjones/starting-conda.git
 cd starting-conda
+pwd
+ls
 ~~~
 
 Download miniconda.  
