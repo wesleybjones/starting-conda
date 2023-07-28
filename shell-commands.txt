@@ -27,3 +27,7 @@ man - manual for commands
 cp - Copy a file and directories
 ./ - current working directory 
 mv - move a file or directory
+
+~~~
+mv test test/test
+~~~
